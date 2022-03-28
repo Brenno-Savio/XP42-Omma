@@ -1,0 +1,89 @@
+:focus {
+    outline: 0;
+}
+
+#pesinho {
+    padding: 38px;
+}
+
+footer {
+    background-color: #ffc107;
+    display: flex;
+    align-items: center;
+    padding: 18px 6px;
+    color: white;
+}
+
+#contato {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    line-height: 24.38px;
+}
+
+#receitas {
+    margin: 0 58px 0 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    line-height: 24.38px;
+}
+
+#inicio {
+    margin: 0 58px 0 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    line-height: 24.38px;
+}
+
+nav {
+    background: #FFA000;
+    text-align: center;
+    padding: 12px;
+}
+
+#logo {
+    padding: 16px;
+}
+
+header {
+    background-color: #ffc105;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+* {
+    font-family: 'Montserrat';
+    text-decoration: none;
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 420px) {
+    
+    header {
+        width: auto;     
+    }
+    
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav {
+        padding: 12px;
+    }
+
+    #inicio {
+        margin: 0 20px 0 0;
+    }
+
+    #receitas {
+        margin: 0 20px 0 0;
+    }
+
+}
